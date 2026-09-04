@@ -1,7 +1,7 @@
 tasks.named('jar') {
     manifest {
         attributes(
-            'Manifest-Version': '4.0',
+            'Manifest-Version': '3.3.0',
             'Main-Class': 'com.example.myapp.Main',
             'Class-Path': configurations.runtimeClasspath.files.collect { it.name }.join(' ')
         )
