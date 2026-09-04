@@ -1,6 +1,6 @@
 # function varargout = brainstorm( varargin )
 % BRAINSTORM Brainstorm startup function.
-%
+% 
 % USAGE: brainstorm                 : Start Brainstorm
 %        brainstorm start           : Start Brainstorm
 %        brainstorm nogui           : Start Brainstorm with hidden interface (for scripts)
