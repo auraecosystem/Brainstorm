@@ -1,9 +1,0 @@
-# With uv.
-uv tool install ruff@latest  # Install Ruff globally.
-uv add --dev ruff            # Or add Ruff to your project.
-
-# With pip.
-pip install ruff
-
-# With pipx.
-pipx install ruff
