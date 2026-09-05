@@ -13,3 +13,12 @@ powershell -c "irm https://astral.sh/ruff/install.ps1 | iex"
 # For a specific version.
 curl -LsSf https://astral.sh/ruff/0.16.6/install.sh | sh
 powershell -c "irm https://astral.sh/ruff/0.16.6/install.ps1 | iex"
+m# With uv.
+uv tool install ruff@latest  # Install Ruff globally.
+uv add --dev ruff            # Or add Ruff to your project.
+
+# With pip.
+pip install ruff
+
+# With pipx.
+pipx install ruff
