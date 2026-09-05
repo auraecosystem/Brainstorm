@@ -4,3 +4,12 @@ ruff check path/to/code/*.py        # Lint all `.py` files in `/path/to/code`.
 ruff check path/to/code/to/file.py  # Lint `file.py`.
 ruff check @arguments.txt           # Lint using an input file, treating its contents as newline-delimited command-line arguments.
 
+# On macOS and Linux.
+curl -LsSf https://astral.sh/ruff/install.sh | sh
+
+# On Windows.
+powershell -c "irm https://astral.sh/ruff/install.ps1 | iex"
+
+# For a specific version.
+curl -LsSf https://astral.sh/ruff/0.16.6/install.sh | sh
+powershell -c "irm https://astral.sh/ruff/0.16.6/install.ps1 | iex"
